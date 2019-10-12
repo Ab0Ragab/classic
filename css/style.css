@@ -1,0 +1,238 @@
+/*start gloabal roles*/
+
+body
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+/*start framework*/
+.special-heading
+{
+    position: relative;
+}
+.special-heading:after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45px;
+    top: 40px;
+    left: 0;
+    border-bottom: 2px solid black;
+}
+/*end framework*/
+/*start nav*/
+.navbar
+{
+    font-size: 20px;
+    background-color: rgba(1,1,1,0.6);
+}
+.navbar-brand
+{
+    font-size: 25px;
+    color: white;
+}
+.navbar-brand:hover,
+.navbar-nav > li > a:hover
+{
+    color: lightblue;
+    background-color: rgba(1,1,1,0.6);
+}
+.navbar-nav > li > a
+{
+    color: white;
+}
+/*end nav*/
+/*start carousel*/
+.cst
+{
+    background: url(../imgs/street.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.cst .overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.6);
+}
+.carousel-inner .ist
+{
+    margin-top: 380px;
+}
+.carousel-inner .ist h2
+{
+    font-size: 50px;
+}
+.cst button
+{
+    margin-top: 60px;
+}
+.carousel-caption h2 span
+{
+    color: cyan;
+}
+/*end carousel*/
+
+/*start services*/
+
+.services h2
+{
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+.services .st
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.fa
+{
+    color: #337ab7;
+}
+.media
+{
+    margin-bottom: 30px;
+}
+/*end services*/
+
+/*start team*/
+.team
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.team h2
+{
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.team .imgst img
+{
+    max-width: 100%;
+    opacity: 0.4;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.team .imgst img:hover{opacity: 1;}
+
+/*end team*/
+
+/*start tesimonials*/
+.client
+{
+    height: 400px;
+    background: url(../imgs/clinent.jpg) no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    font-size: 22px;
+}
+.client .overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.6);
+}
+.client h2
+{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.client p
+{
+    margin-bottom: 60px;
+}
+/*end testimonials*/
+
+/*start projects*/
+.project
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.project h2
+{
+   margin-bottom: 40px;
+    margin-top: 40px;
+}
+.project ul
+{
+    padding: 0;
+}
+.project ul li
+{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.project .prow
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.project .over
+{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(1,1,1,0.6);
+    display: none;
+    position: absolute;
+    left: 15px;
+    width: 92%;
+}
+.row > div:hover .over
+{
+    display: block;
+    cursor: pointer;
+}
+.project img
+{
+    width: 100%;
+    height: 100%;
+}
+/*end projects*/
+
+/*start footer*/
+.footer
+{
+    background-color: #878787;
+    color: #fff;
+    margin-top: 40px;
+}
+.footer .pst 
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer ul 
+{
+    list-style: none;
+    padding: 0;
+}
+.footer .copy
+{
+    margin-top: 120px;
+}
+/*end footer*/
